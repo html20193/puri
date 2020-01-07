@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title> Puri cosmetic </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- maximum-scale=1.0, minimum-scale=1.0, user-scalable=no -->
+    <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="apple-touch-icon" href="assets/images/favicon.png"> <!-- 아이폰 전용 -->
+    <link rel="shortcut icon" href="assets/images/favicon.png"> <!-- 안드로이드폰 전용 -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/common.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <!-- fixed -->
+            <div class="headertop p_r">
+                <!-- bg - lower than nav -->
+                <h1 class="logo p_a">
+                    <a href="">
+                        <!-- <img src="assets/images/common/logo.jpg" alt="퓨리 코스메틱" srcset="assets/images/common/logox3.png 3x"> -->
+                        <svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 66.7 30"
+                            style="enable-background:new 0 0 66.7 30;" xml:space="preserve">
+                            <path id="XMLID_236_" class="st0"
+                                d="M11.9,1.8H4C3.3,1.8,2.8,2.3,2.8,3v23.9C2.8,27.5,3.3,28,4,28c0.6,0,1.2-0.5,1.2-1.2v-7.9h6.7c5,0,8.9-3.8,8.9-8.6C20.8,5.6,16.9,1.8,11.9,1.8z M18.5,10.4c0,3.5-2.8,6.2-6.6,6.2H5.2V4.1h6.7C15.6,4.1,18.5,6.8,18.5,10.4z" />
+                            <path id="XMLID_208_" class="st0"
+                                d="M37.6,12c-0.6,0-1.2,0.5-1.2,1.2l0,8.2c-0.1,2.4-2.1,4.3-4.5,4.3c-2.5,0-4.5-2-4.5-4.5V13c0-0.6-0.5-1.2-1.2-1.2s-1.2,0.5-1.2,1.2v8.1c0,3.8,3.1,6.8,6.8,6.8c1.7,0,3.3-0.6,4.5-1.7v0.5c0,0.6,0.5,1.2,1.2,1.2c0.6,0,1.2-0.5,1.2-1.2V13.2C38.8,12.5,38.3,12,37.6,12z" />
+                            <path id="XMLID_207_" class="st0"
+                                d="M52.5,11.4c-1.7,0-3.4,0.6-4.7,1.8v-0.1c0-0.6-0.5-1.1-1.1-1.1h-0.1c-0.6,0-1.1,0.5-1.1,1.1v13.8c0,0.6,0.5,1.1,1.1,1.1h0.1c0.6,0,1.1-0.5,1.1-1.1l0-9c0.1-2.4,2.1-4.1,4.7-4.1c0.6,0,1.2-0.5,1.2-1.2S53.2,11.4,52.5,11.4z" />
+                            <g id="XMLID_205_">
+                                <path id="XMLID_206_" class="st0"
+                                    d="M61,12h-0.1c-0.6,0-1.1,0.5-1.1,1.1v13.8c0,0.6,0.5,1.1,1.1,1.1H61c0.6,0,1.1-0.5,1.1-1.1V13.1C62.1,12.5,61.6,12,61,12z" />
+                                <path id="XMLID_221_" class="st0"
+                                    d="M60.9,2c-1.7,0-3.1,1.4-3.1,3.1s1.4,3.1,3.1,3.1c1.7,0,3.1-1.4,3.1-3.1S62.6,2,60.9,2zM61.9,5.1c0,0.5-0.4,1-1,1c-0.5,0-1-0.4-1-1c0-0.5,0.4-1,1-1C61.5,4.2,61.9,4.6,61.9,5.1z" />
+                            </g>
+                        </svg>
+                    </a>
+                </h1>
+                <ul class="quick p_a">
+                    <li>
+                        <a href="">
+                            <span class="sr-only">장바구니</span>
+                            <svg version="1.1" id="cartIcon" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 99 84"
+                                style="enable-background:new 0 0 99 84;" xml:space="preserve">
+                                <path id="XMLID_45_" class="st0"
+                                    d="M4.8,5.6h17.7c6.7,21.3,11.7,36.4,13,40.4c1.8,5.8,6.8,7.7,12.6,7.7s21.2,0,27.2,0c6,0,8.6-1.7,10.3-6.4s8.3-28.7,8.3-28.7H39.1" />
+                                <circle id="XMLID_44_" class="st1" cx="44.6" cy="72.5" r="6.4" />
+                                <circle id="XMLID_43_" class="st1" cx="78.3" cy="72.5" r="6.4" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <button type="button" id="search_btn">
+                            <span class="sr-only">검색바</span>
+                            <svg version="1.1" id="searchIcon" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 86.5 85"
+                                style="enable-background:new 0 0 86.5 85;" xml:space="preserve">
+                                <path id="XMLID_137_" class="st2"
+                                    d="M55.9,54.7c-11.3,11.3-29.5,11.3-40.8,0s-11.3-29.5,0-40.8s29.5-11.3,40.8,0S67.2,43.4,55.9,54.7" />
+                                <line id="XMLID_136_" class="st3" x1="57.2" y1="56" x2="79.4" y2="78.2" />
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="btn_menu p_r">
+                <span class="sr-only">메뉴열기</span>
+                <span class="line top"></span>
+                <span class="line mid"></span>
+                <span class="line btm"></span>
+            </button>
+            <div class="header_search" id="headerSearch">
+                <form class="search_form" id="searchForm" action="index.html">
+                    <label for="searchKeyword" class="sr-only">검색창</label>
+                    <input type="text" id="searchKeyword" placeholder="검색어를 입력하세요">
+                    <button>
+                        <svg version="1.1" id="searchIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 86.5 85"
+                            style="enable-background:new 0 0 86.5 85;" xml:space="preserve">
+                            <path id="XMLID_137_" class="st2"
+                                d="M55.9,54.7c-11.3,11.3-29.5,11.3-40.8,0s-11.3-29.5,0-40.8s29.5-11.3,40.8,0S67.2,43.4,55.9,54.7" />
+                            <line id="XMLID_136_" class="st3" x1="57.2" y1="56" x2="79.4" y2="78.2" />
+                        </svg>
+                    </button>
+                </form>
+                <button type="button" class="search_close">
+                    <img src="assets/images/common/search_close.png" alt="검색창 닫기"
+                        srcset="assets/images/common/search_closex3.png 3x">
+                </button>
+            </div>
+            <!-- menu -->
+            <!-- <div id="dim"></div> 스크립트로 동적 생성-->
+            <nav id="gnb">
+                <div class="area">
+                    <div class="sign_util">
+                        <button type="button" class="signup">회원가입</button>
+                        <button type="button" class="login">로그인</button>
+                    </div>
+                    <div class="menu_area">
+                        <ul class="quick_menu">
+                            <li class="order f_l"><a href="">주문내역</a></li>
+                            <li class="like f_l"><a href="">찜한목록</a></li>
+                            <li class="recent f_l"><a href="">최근본상품</a></li>
+                            <li class="cart f_l"><a href="">장바구니</a></li>
+                        </ul>
+                        <div id="categoryTab">
+                            <ul class="tablist" role="tablist" aria-label="카테고리">
+                                <li class="tab" role="tab" id="tab1" aria-controls="tabpanel1">유형별</li>
+                                <li class="tab" role="tab" id="tab2" aria-controls="tabpanel2">타입별</li>
+                            </ul>
+                            <ul class="tabpanel" role="tabpanel" id="tabpanel1" aria-labelledby="tab1">
+                                <li><a href="">스킨케어</a></li>
+                                <li><a href="">선케어</a></li>
+                                <li><a href="">클렌징&팩</a></li>
+                                <li><a href="">베이스</a></li>
+                                <li><a href="">아이</a></li>
+                                <li><a href="">립</a></li>
+                                <li><a href="">바디&헤어</a></li>
+                                <li><a href="">네일&향수</a></li>
+                                <li><a href="">화장소품</a></li>
+                            </ul>
+                            <ul class="tabpanel" role="tabpanel" id="tabpanel2" aria-labelledby="tab2">
+                                <li><a href="">건성</a></li>
+                                <li><a href="">중성</a></li>
+                                <li><a href="">지성</a></li>
+                                <li><a href="">수부지</a></li>
+                                <li><a href="">복합성</a></li>
+                                <li><a href="">고민성</a></li>
+                                <li><a href="">민감성</a></li>
+                            </ul>
+                        </div>
+                        <ul class="fold">
+                            <li>
+                                <a href="">EVENT</a>
+                                <ul>
+                                    <li><a href="">진행중인 이벤트</a href=""></li>
+                                    <li><a href="">샘플 체험</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">COMMUNITY</a>
+                                <ul>
+                                    <li><a href="">공지&당첨자</a></li>
+                                    <li><a href="">베스트 후기</a></li>
+                                    <li><a href="">쇼핑 랭킹</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="menu_btm">
+                        <li class="f_l"><a href="">브랜드 소개</a></li>
+                        <li class="f_l"><a href="">매장 소개</a></li>
+                        <li class="f_l"><a href="">고객센터</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <section id="content" class="area">
+            <h3 class="sr-only">퓨리 프로모션, 상품 및 브랜드 소개</h3>
+            <article class="main_visual_bnr">
+                <h4 class="sr-only">이벤트 및 프로모션</h4>
+                <!-- swiper : touch mobile slider -->
+                <div class="swiper-container p_r">
+                    <!-- 슬라이더 상세내용 그룹 -->
+                    <div class="swiper-wrapper">
+                        <!-- 상세내용 -->
+                        <div class="swiper-slide">
+                            <a href="" class="bnr1 boxarea"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="" class="bnr2 boxarea"></a>
+                        </div>
+                        
+                    </div>
+                    <!-- 페이징 번호 -->
+                    <div class="swiper-pagination-fraction p_a"></div>
+                </div>
+            </article>
+    
+            <article>
+                <h4 class="c_blue">MD'S <span>PICK</span></h4>
+                <a href="" class="md_visual1 boxarea">MD가 추천하는 피부고민을 없애주는 스킨케어</a>
+                <div class="md_box">
+                    <a href="" class="md_visual2 f_l boxarea">촉촉한 피부를 가꾸어주는 스킨</a>
+                    <a href="" class="md_visual3 f_l boxarea">자연의 색을 담은 립제품</a>
+                </div>
+            </article>
+    
+            <article class="main_bestsellor">
+                <h4 class="c_blue">BEST <span>SELLOR</span></h4>
+                <!-- swiper : touch mobile slider -->
+                <div class="swiper-container">
+                    <!-- 슬라이더 상세내용 그룹 -->
+                    <ul class="swiper-wrapper">
+                        <!-- 상세내용 -->
+                        <li class="swiper-slide">
+                            <a href="">
+                                <div class="best_item_img1 boxarea"></div>
+                                <p>에메랄드 페이셜 오일</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <div class="best_item_img2 boxarea"></div>
+                                <p>프리즘 글로우 세럼</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <div class="best_item_img3 boxarea"></div>
+                                <p>슈가 하이드레이팅 립밤</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <div class="best_item_img4 boxarea"></div>
+                                <p>슈가 하이드레이팅 립밤</p>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <div class="best_item_img5 boxarea"></div>
+                                <p>슈가 하이드레이팅 립밤</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+    
+            <article class="main_brand">
+                <h4 class="c_blue">BRAND</h4>
+                <a href=""><div class="main_brand_img boxarea"></div></a>
+            </article>
+        </section>
+    
+        <footer id="footer">
+            <div class="area">
+                <ul>
+                    <li class="f_l"><a href="">이용약관</a></li>
+                    <li class="f_l"><a href="">개인정보취급방침</a></li>
+                    <li class="f_l"><a href="">고객센터</a></li>
+                    <li class="f_l"><a href="">PC버전</a></li>
+                </ul>
+                <strong>(주)퓨리 코스메틱</strong>
+                <address><span>대표 </span>최지호<br><span>주소</span>서울 서초구 강남대로 405 통영빌딩
+                    8층<br><span>사업자등록번호</span>800-08-74320<br><span>통신판매 신고번호 </span>제 2019-서울서초-0297호<br><span>문의전화
+                    </span>02-3478-0008</address>
+                <p>COPYRIGHT &copy; Puri ALL RIGHT RESERVED</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
