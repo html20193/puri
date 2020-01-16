@@ -19,3 +19,11 @@
     -webkit-transform: $value;
     transform: $value;
 }
+@mixin bgcover($value...) {
+    -webkit-background-size: $value !important;
+    background-size: $value !important;
+}
+@mixin displayFlex {
+    -webkit-display: flex;
+    display: flex;
+}
